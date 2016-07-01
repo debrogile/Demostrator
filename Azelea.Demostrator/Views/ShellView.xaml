@@ -1,0 +1,29 @@
+﻿<Window x:Class="Azelea.Demostrator.Views.ShellView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:prism="http://www.codeplex.com/prism"
+        xmlns:inf="clr-namespace:Azelea.Demostrator.Infrastructure;assembly=Azelea.Demostrator.Infrastructure"
+        Title="演示容器"
+        WindowState="Maximized">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="300"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid Grid.Column="0" Background="DarkMagenta">
+            <ContentControl prism:RegionManager.RegionName="{x:Static inf:RegionName.NavigationRegion}"/>
+        </Grid>
+        <Grid Grid.Column="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="200"/>
+            </Grid.RowDefinitions>
+            <ContentControl Grid.Row="0"
+                            prism:RegionManager.RegionName="{x:Static inf:RegionName.ContentRegion}"/>
+            <ContentControl Grid.Row="1"
+                            Background="LightGray"
+                            prism:RegionManager.RegionName="{x:Static inf:RegionName.LogRegion}"/>
+        </Grid>
+    </Grid>
+</Window>

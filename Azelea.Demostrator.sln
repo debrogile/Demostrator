@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azelea.Demostrator.Infrastructure", "Azelea.Demostrator.Infrastructure\Azelea.Demostrator.Infrastructure.csproj", "{7EEC5392-6478-459C-9090-2B009F6CEFD6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{3B70BD2B-CC43-457B-A2BF-3BDDD5CF5809}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azelea.Demostrator.Module.Log", "Azelea.Demostrator.Module.Log\Azelea.Demostrator.Module.Log.csproj", "{B7E7882C-F948-4030-A65D-71434713047B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azelea.Demostrator", "Azelea.Demostrator\Azelea.Demostrator.csproj", "{A6FC1008-B644-4B4C-BDB1-410F3D1C8904}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Azelea.Demostrator.Module.Navigation", "Azelea.Demostrator.Module.Navigation\Azelea.Demostrator.Module.Navigation.csproj", "{3EFF9008-BED8-42D8-9C8A-5C78B8CA2EB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7EEC5392-6478-459C-9090-2B009F6CEFD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EEC5392-6478-459C-9090-2B009F6CEFD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EEC5392-6478-459C-9090-2B009F6CEFD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EEC5392-6478-459C-9090-2B009F6CEFD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7E7882C-F948-4030-A65D-71434713047B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7E7882C-F948-4030-A65D-71434713047B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7E7882C-F948-4030-A65D-71434713047B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7E7882C-F948-4030-A65D-71434713047B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6FC1008-B644-4B4C-BDB1-410F3D1C8904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6FC1008-B644-4B4C-BDB1-410F3D1C8904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6FC1008-B644-4B4C-BDB1-410F3D1C8904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6FC1008-B644-4B4C-BDB1-410F3D1C8904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EFF9008-BED8-42D8-9C8A-5C78B8CA2EB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EFF9008-BED8-42D8-9C8A-5C78B8CA2EB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EFF9008-BED8-42D8-9C8A-5C78B8CA2EB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EFF9008-BED8-42D8-9C8A-5C78B8CA2EB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B7E7882C-F948-4030-A65D-71434713047B} = {3B70BD2B-CC43-457B-A2BF-3BDDD5CF5809}
+		{3EFF9008-BED8-42D8-9C8A-5C78B8CA2EB2} = {3B70BD2B-CC43-457B-A2BF-3BDDD5CF5809}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.Common.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.Logging.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.ExceptionHandling.6.0.1304.0\lib\NET45;packages\EnterpriseLibrary.ExceptionHandling.Logging.6.0.1304.0\lib\NET45
+	EndGlobalSection
+EndGlobal
